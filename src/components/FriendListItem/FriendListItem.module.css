@@ -1,0 +1,37 @@
+.item {
+  padding: 25px 30px;
+  margin-bottom: 40px;
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+  background-color: rgba(117, 190, 218, 0.5);
+}
+.online {
+  margin-right: 15px;
+  background: #68ff81;
+  border: 5px solid #3766ef;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+.offline {
+  margin-right: 15px;
+  background: #ff6868;
+  border: 5px solid #3766ef;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.name {
+  font-size: 18px;
+  width: 60px;
+  padding-left: 15px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
